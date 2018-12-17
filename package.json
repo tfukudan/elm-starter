@@ -1,0 +1,23 @@
+{
+  "name": "elm-starter",
+  "version": "0.0.1",
+  "description": "Elm with parcel",
+  "main": "server.js",
+  "author": "t.fukuda@sansan.com",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "scripts": {
+    "dev": "parcel ./src/index.html",
+    "build": "parcel build ./src/index.html",
+    "start": "node server.js"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.7",
+    "node-elm-compiler": "^5.0.1"
+  }
+}
