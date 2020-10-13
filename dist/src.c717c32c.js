@@ -3,6 +3,6 @@ parcelRequire=function(e,r,t,n){var i,o="function"==typeof parcelRequire&&parcel
 },{}],"iMte":[function(require,module,exports) {
 
 },{}],"Focm":[function(require,module,exports) {
-"use strict";var e=require("./Main.elm");function t(e){throw new Error('"'+e+'" is read-only')}require("./style.css");var r=null;try{t("initialState"),r=JSON.parse(localStorage.getItem("elm-todo-save"))}catch(i){}var a=e.Elm.Main.init({flags:r});a.ports.setStorage.subscribe(function(e){localStorage.setItem("elm-todo-save",JSON.stringify(e))});
+"use strict";var e=require("./Main.elm");require("./style.css");var t=null;try{t=JSON.parse(localStorage.getItem("elm-todo-save"))}catch(a){}var r=e.Elm.Main.init({flags:t});r.ports.setStorage.subscribe(function(e){localStorage.setItem("elm-todo-save",JSON.stringify(e))});
 },{"./Main.elm":"asWa","./style.css":"iMte"}]},{},["Focm"], null)
-//# sourceMappingURL=/src.76c748d0.js.map
+//# sourceMappingURL=/src.c717c32c.js.map

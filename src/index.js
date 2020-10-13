@@ -1,7 +1,7 @@
 import {Elm} from './Main.elm';
 import './style.css';
 
-const initialState = null;
+let initialState = null;
 try{
     initialState = JSON.parse(localStorage.getItem('elm-todo-save'));
 }catch(_){}
