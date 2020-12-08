@@ -215,7 +215,6 @@ view : Model -> Html Msg
 view model =
     div
         [ class "todomvc-wrapper"
-        , style "visibility" "hidden"
         ]
         [ section
             [ class "todoapp" ]
