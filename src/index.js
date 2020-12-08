@@ -1,5 +1,6 @@
 import {Elm} from './Main.elm';
-import './style.css';
+import 'todomvc-common/base.css'
+import 'todomvc-app-css/index.css';
 
 let initialState = null;
 try{

@@ -2,7 +2,6 @@
   "name": "elm-starter",
   "version": "0.0.1",
   "description": "Elm with parcel",
-  "main": "server.js",
   "author": "t.fukuda@sansan.com",
   "license": "MIT",
   "dependencies": {
@@ -18,6 +17,8 @@
     "elm": "^0.19.1",
     "elm-hot": "^1.1.5",
     "node-elm-compiler": "^5.0.4",
-    "parcel": "2.0.0-nightly.472"
+    "parcel": "2.0.0-nightly.472",
+    "todomvc-app-css": "^2.3.0",
+    "todomvc-common": "^1.0.5"
   }
 }
